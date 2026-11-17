@@ -1,0 +1,53 @@
+{
+  "name": "@mambalabsdev/mcp-google-play-app-details",
+  "version": "1.0.0",
+  "description": "MCP server for Google Play App Details: ratings, installs, price, and developer links for Android apps.",
+  "type": "module",
+  "bin": {
+    "mcp-google-play-app-details": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "google-play",
+    "play-store",
+    "android",
+    "apps",
+    "app-store-optimization",
+    "scraper",
+    "apify",
+    "mcp",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/google-play-app-details",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-google-play-app-details"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-google-play-app-details"
+}

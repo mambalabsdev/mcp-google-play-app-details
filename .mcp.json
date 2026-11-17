@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-google-play-app-details": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-google-play-app-details"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
