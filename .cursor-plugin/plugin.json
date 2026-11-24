@@ -1,7 +1,7 @@
 {
   "name": "mcp-google-play-app-details",
   "displayName": "Google Play App Details",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP server for Google Play App Details: ratings, installs, price, and developer links for Android apps.",
   "author": {
     "name": "Mamba Labs",
